@@ -3,7 +3,7 @@ function getIt(){
 $('p').on('click', alert('Hey!'))
 }
 function frameIt(){
-$('p').on('click', alert('Hey!'))
+$('img').on('load', "border: 2px solid red")
 }
 function pressIt(){
 $('p').on('click', alert('Hey!'))
